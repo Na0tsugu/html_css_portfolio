@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- common css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- style.css -->
+    <!-- <link rel="stylesheet" href=""> -->
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1 class="logo"><a href="index.html"><img src="images/logo_02.png" alt="ビューティオン"></a></h1>
+            <label for="open-close"><!-- checkboxのチェックがされたらopen はずされたらclose-->
+            <nav id="global_navi">
+            <input type="checkbox" id="open-close">
+            <span></span>
+            <span></span>
+            <span></span>
+            <!-- ハンバーガーメニューの素材 -->
+                <ul id="menu"><!-- チェックが入るまで隠ている -->
+                    <li><a href="#home">ホーム</a></li>
+                    <li><a href="#concept">サービス</a></li>
+                    <li><a href="#serviceflow">サービスの流れ</a></li>
+                    <li><a href="#trainer">トレーナー一覧</a></li>
+                    <li><a href="#plan">プラン・料金</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                    <li class="flexli">
+                        <p>予約する<a href="./login.html" class="btn-circle-3d yoyaku"></a></p>
+                    </li>
+                </ul>
+            </nav>
+        </label>
+        </div>
+    </header>
+    <div class="header_bk wrapper"></div><!-- header fixed clear -->
+    <main>
+        <div class="content first_bg">
+            <div id="home" class="grade">
+                <div class="titlebody">
+                    <div class=" titlebox wrapper">
+                        <h2 class="title">オンライン予約制　ヨガ
+                        <br>パーソナルトレーニング</h2>
+                    </div>
+                </div>
+                <article class="cpcontent">
+                    <h2 class="cp_title">　 通常価格　<s>3000円</s><br>　
+                        <strong>初回価格　<span class="red">1000円</span></strong><br>
+                        キャンペーン実施中！<br>
+                    </h2>
+                    
+                    <a href="./login.html" class="btn-circle-3d">予約する</a>
+                    <!-- <p class="cp_cap">オンラインヨガ、又はオンラインパーソナルトレーニングがお試しプライスで利用できます。</p> -->
+                </article>
+            </div>
+        </div>
+        <section id="concept" class="contents">
+            <article class="concept content_box">
+                <div class="wrapper">
+                    <h2 class="contents_title">サービス</h2>
+                    <div class="concept_p">
+                        <p>
+                        　どこでも気軽にエクササイズ。
+                            自宅でも、旅先でも楽しくオンラインパーソナルトレーニング・ヨガが受けられるサービスです。
+                            インターネット環境さえあれば場所を選ばずトレーニングが始められます。
+                            又、近年まん延で危惧される新型コロナウィルス感染のリスクを回避し自宅で安全にマンツーマン・セッションが受けられます。
+                        </p>
+                        <p>
+                            　外出自粛で家にいる間ついつい食べすぎてしまったり、リモートワークでの運動不足や、
+                            運動を習慣化したい・ダイエットがしたいなどの悩みを解消します。
+                            場所をとるマシンや高額なフィットネス器具は必要無く、身近にあるもので手軽にエクササイズが行えます。
+                            家事の合間や余暇時間で気軽にエクササイズ始めてみませんか？
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="serviceflow" class="contents">
+                <article class="content_box">
+                    <div class="wrapper">
+                        <h2 class="contents_title">サービスの流れ</h2>
+                        <div class="flowbox">
+                            <div class="flowboxes">
+                                <img src="./images/flow01.png" alt="会員登録">
+                                <dl>
+                                 <dt>1．会員登録</dt>
+                                    <dd>当サイトの予約ページから会員登録を行います。</dd>
+                                </dl>
+                            </div>
+                            <div class="flow_right flowboxes">
+                                <img src="./images/flow02.png" alt="zoomインストール">
+                                <dl>
+                                    <dt>2．zoomをインストール</dt>
+                                    <dd>お使いのパソコン又はスマートフォン・タブレットにテレビ電話アプリzoomをインストールしていただきます。</dd>
+                                </dl>
+                            </div>
+                            <div class="flowboxes">
+                                <img src="./images/flow03.png" alt="チケット購入・予約">
+                                <dl>
+                                    <dt>3．チケット購入・予約</dt>
+                                    <dd>チケットを購入し、ご希望の日時で予約します。</dd>
+                                </dl>
+                            </div>
+                            <div class="flow_right flowboxes">
+                                <img src="./images/flow04.png" alt="ヒアリング・カウンセリング">
+                                <dl>
+                                    <dt>4．ヒアリング・カウンセリング</dt>
+                                    <dd>ご予約日当日、zoomにてヒアリング・カウンセリングを実施します。お客様のお悩みや目標をお聞きし、楽しく目標を達成するプログラムをご用意します。</dd>
+                                </dl>
+                            </div>
+                            <div class="flowboxes">
+                                <img src="./images/flow05.png" alt="">
+                                <dl>
+                                    <dt>5．セッション開始</dt>
+                                    <dd>オンラインに特化する研修を受けたトレーナーが明るく笑顔で対応致します。</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+        </section>
+        <section id="trainer" class="contents">
+            <article class="content_box">
+                <div class="wrapper">
+                    <h2 class="contents_title">トレーナー</h2>
+                    <p class="trainer_p">
+                        　弊社が培った経験と実績で編み出した独自の資格Beautyon認定パーソナルトレーナーを有するトレーナーが
+                        厳しい研修を受け、社内テストに合格した者のみがオンラインセッションを行っております。
+                    </p>
+                    <div class="trainer_grid">
+                        <div class="trainer_grid_item">
+                            <img src="./images/trainer01.jpg" alt="大坂ララ">
+                            <div class="p_wrapper">
+                                <h3>大坂ララ</h3>
+                                <p>認定パーソナルトレーナー<br>
+                                    〇〇コンテスト1st</p>
+                                <a class="viewmore" href="./trainer.html">もっと見る</a>  
+                            </div>
+                        </div>
+                        <div class="trainer_grid_item">
+                            <img src="./images/trainer02.jpg" alt="梅田メイツ">
+                            <div class="p_wrapper">
+                                <h3>梅田メイツ</h3>
+                                <p>認定パーソナルトレーナー<br>
+                                    〇〇コンテスト2st</p>
+                                <a class="viewmore" href="./trainer.html">もっと見る</a>  
+                            </div>
+                        </div>
+                        <div class="trainer_grid_item">
+                            <img src="./images/trainer03.jpg" alt="中津乃斗成">
+                            <div class="p_wrapper">
+                                <h3>田中美桜</h3>
+                                <p>認定パーソナルトレーナー<br>
+                                    〇〇コンテスト3st</p>
+                                <a class="viewmore" href="./trainer.html">もっと見る</a>  
+                            </div>
+                        </div>
+                        <div class="trainer_grid_item">
+                            <img src="./images/trainer04.jpg" alt="今田美ヲ">
+                            <div class="p_wrapper">
+                                <h3>今田美ヲ</h3>
+                                <p>認定パーソナルトレーナー<br>
+                                    〇〇コンテスト2st</p>
+                                <a class="viewmore" href="./trainer.html">もっと見る</a>  
+                            </div>
+                        </div>
+                        <div class="trainer_grid_item">
+                            <img src="./images/trainer05.jpg" alt="マイスタ・ラボ・ラトリー">
+                            <div class="p_wrapper">
+                                <h3>マイスタ・ラボ・ラトリー</h3>
+                                <p>認定パーソナルトレーナー<br>
+                                    〇〇コンテスト1st</p>
+                                <a class="viewmore" href="./trainer.html">もっと見る</a>  
+                            </div>
+                        </div>
+                        <div class="trainer_grid_item">
+                            <img src="./images/trainer06.jpg" alt="芝田二郎">
+                            <div class="p_wrapper">
+                                <h3>芝田二郎</h3>
+                                <p>認定パーソナルトレーナー<br>
+                                    〇〇コンテスト3st</p>
+                                <a class="viewmore" href="./trainer.html">もっと見る</a>  
+                            </div>
+                        </div>
+                        <div class="trainer_grid_item">
+                            <img src="./images/trainer07.jpg" alt="中津乃斗成">
+                            <div class="p_wrapper">
+                                <h3>中津乃斗成</h3>
+                                <p>認定パーソナルトレーナー<br>
+                                    〇〇コンテスト3st</p>
+                                <a class="viewmore" href="./trainer.html">もっと見る</a>  
+                            </div>
+                        </div>
+                        <div class="trainer_grid_item">
+                            <img src="./images/trainer08.jpg" alt="中津乃斗成">
+                            <div class="p_wrapper">
+                                <h3>マイケル</h3>
+                                <p>認定パーソナルトレーナー<br>
+                                    〇〇コンテスト3st</p>
+                                <a class="viewmore" href="./trainer.html">もっと見る</a>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>    
+        <section id="plan" class="contents">
+            <article class="content_box">
+                <div class="plantable wrapper">
+                    <h2 class="contents_title">プラン・料金</h2>
+                    <table>
+                        <tbody>
+                            <tr><th>初回体験チケット</th><td><span class="red">1000円</span></td></tr>
+                            <tr><th>チケット　1枚</th><td>3000円</td></tr>
+                            <tr><th>チケット　12枚</th><td>30000円</td></tr>
+                            <tr><th>チケット　30枚＋6枚</th><td>90000円</td></tr>
+                            <tr><td colspan="2"><i class="fas fa-hourglass-start"></i>　チケットあたりのセッションは50分間です。</td></tr>
+                        </tbody>
+                    </table>
+                    <p class="plan_p">
+                        この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間
+                    </p>
+                </div>
+            </article>
+        </section>
+        <section id="contact" class="contents">
+            <article class="content_box">
+                <div class="contact wrapper">
+                    <h2 class="contents_title">お問い合わせ</h2>
+				    <form>
+                        <ul class="teble_ul">
+                            <li class="contact_item name">
+                                <label for="name">お名前</label>
+                                <input type="text" id="shimei" name="fullname" required>
+                            </li>            
+                            <li class="contact_item hurigana">
+                                <label for="hurigana">お名前（ふりがな）</label>
+                                <input type="text" id="hurigana" name="fullname" required>
+                            </li>        
+                            <li class="contact_item mail">        
+                                <label for="mail">メールアドレス</label>
+                                <input type="email" id="mail" name="tegami" required>
+                            </li>
+                            <li class="contact_item">
+                                <p>お問い合わせ項目</p>
+                                <select name="fruit" required>
+                                    <option disabled selected value>選択してください</option>
+                                    <option value="service">サービスについて</option>
+                                    <option value="trainer">トレーナーについて</option>
+                                    <option value="plan">料金・プランについて</option>
+                                    <option value="ather">その他について</option>
+                                </select>
+                            </li>        
+                            <li class="contact_item">
+                                <p>お問い合わせ内容</p>
+                                <textarea name="toiawase" placeholder="メッセージを入力してください" style="width:100%; resize:none;"></textarea>
+                            </li>
+                            <li class="member">
+                                <p>利用状況</p>
+                                <label for="hai">会員</label>
+                                <input type="radio" id="hai" name="yesno" value="yes">
+                                <label for="iie">非会員</label>
+                                <input type="radio" id="iie" name="yesno" value="no">
+                            </li>        
+                            <li class="contact_item button">
+                                <input type="submit" value="送信">
+                            </li>
+                        </ul>
+					</form>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <!-- <ul id="footermenu">
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#concept">サービス</a></li>
+                <li><a href="#serviceflow">サービスの流れ</a></li>
+                <li><a href="#trainer">トレーナー一覧</a></li>
+                <li><a href="#plan">プラン・料金</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul> -->
+            <small>Copyright &copy; 2021 Beautyon All Rights Reserved.</small>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
